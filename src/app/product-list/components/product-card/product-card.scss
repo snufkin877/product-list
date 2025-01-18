@@ -1,0 +1,19 @@
+.product-card-item {
+	margin: 10px;
+	width: 300px;
+
+	.product-price {
+		font-weight: 400;
+		color: #000;
+	}
+
+	.product-description {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-webkit-line-clamp: 3;
+		height: 6.5em;
+		line-height: 1.5;
+	}
+}

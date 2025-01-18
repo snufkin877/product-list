@@ -1,0 +1,9 @@
+.product-list-container {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  max-height: 74vh;
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

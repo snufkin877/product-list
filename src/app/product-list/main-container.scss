@@ -1,0 +1,35 @@
+.main-container {
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    color: #383838;
+    font-weight: 300;
+
+    header {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 18px;
+        font-weight: 500;
+    }
+
+    footer {
+        width: 90%;
+        position: absolute;
+        bottom: 0px;
+
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background-color: #e6e6e6;
+        }
+
+        .footer-text {
+            margin: 10px;
+            font-weight: 400;
+        }
+    }
+
+}
